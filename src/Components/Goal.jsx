@@ -70,7 +70,7 @@ function Goal() {
           transition={{ duration: 1 }}
           className="text-black text-center md:text-left max-w-2xl"
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold pb-6">Our Vision</h1>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold pb-6">Our Background</h1>
           <p className="text-base sm:text-lg md:text-xl leading-relaxed text-justify">
             The Gauteng Men’s Federation (GAMEF) was born out of a men’s consultative conference held in May 2013 in Turffontein, where men’s groups across the province came together to align their efforts with government policies and to shape a unified men’s movement. This initiative was driven by the newly formed Men’s Forum within the Gauteng Department of Social Development (DSD), which initially focused on empowering male staff members and later expanded to engage men in communities.
 The conference highlighted the urgent need to involve men in addressing social ills, particularly gender-based violence (GBV), substance abuse, and mental health challenges. Recognizing that traditional gender roles often contribute to these issues, GAMEF promotes positive masculinity and encourages men to be active participants in social change.
