@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="bg-white flex flex-col md:flex-row md:gap-x-20 ustify-center items-center px-6 sm:px-8 lg:px-12 gap-10 md:gap-16 py-10 pt-20">
+    <div className="bg-white flex flex-col md:flex-row md:gap-x-20 ustify-center items-center px-6 sm:px-8 lg:px-12 gap-10 md:gap-16 py-10
+     pt-20">
       {/* Text Content */}
       <motion.div
         initial={{ x: -100, opacity: 0 }}
@@ -11,13 +12,13 @@ function Hero() {
         transition={{ duration: 1 }}
         className="flex flex-col justify-center items-start text-black max-w-2xl text-center md:text-left gap-4 md:ml-25 md:gap-x-20"
       >
-        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold pb-4 sm:pb-6 ">
+        <h1 className="text-3xl sm:text-6xl md:text-7xl font-bold pb-4 sm:pb-6 ">
           Empowering Every Man and Boy in Gauteng
         </h1>
-        <h2 className="text-lg sm:text-2xl md:text-4xl mt-2 font-medium">
+        <h2 className="text-lg sm:text-2xl md:text-4xl font-medium">
           Stand Tall. Rise Together. Be Part of the Movement.
         </h2>
-        <p className="text-base sm:text-lg md:text-xl mt-4 leading-relaxed text-justify">
+        <p className="text-base sm:text-lg md:text-xl mt-2 leading-relaxed text-justify">
           We are a non-profit organization rooted in the heart of Gauteng, driven by a bold mission: To uplift, support, and empower all men and boys — from every walk of life.
           Whether you’re a young boy finding your voice or a man seeking purpose, we’re here for you. We offer resources, mentorship, and opportunities that help you grow stronger — mentally, emotionally, and socially.
         </p>

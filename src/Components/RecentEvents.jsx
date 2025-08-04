@@ -8,7 +8,7 @@ function RecentEvents() {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-3xl sm:text-4xl md:text-5xl font-bold pb-6 text-center"
+        className="text-3xl sm:text-4xl md:text-5xl font-bold  text-center"
       >
         Recent Events
       </motion.h1>
@@ -17,7 +17,7 @@ function RecentEvents() {
         initial={{ x: 100, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-2xl sm:text-3xl md:text-4xl font-semibold pb-6 text-center"
+        className="text-2xl sm:text-3xl md:text-4xl font-semibold  text-center"
       >
         Want to Get Involved?
       </motion.h1>

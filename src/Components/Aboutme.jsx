@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Aboutme() {
   return (
     <div className="flex flex-col items-center justify-center bg-white px-4 sm:px-8 md:px-12 py-10 gap-8 md:gap-16 overflow-x-hidden">
-      
+
       {/* Heading */}
       <motion.h1
         initial={{ opacity: 0 }}
@@ -20,15 +20,16 @@ function Aboutme() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
-        className="text-sm sm:text-base md:text-lg mt-4 leading-relaxed text-justify max-w-4xl"
+        className="text-sm sm:text-base md:text-lg leading-relaxed text-justify max-w-4xl"
       >
         Gauteng Men’s Federation (GAMEF) was established in 2012 and officially registered as a non-profit organization under the NPO Act of 1997 with the National Department of Social Development. On 12 March 2014, the organization proudly adopted its current name — GAMEF.
         <br /><br />
         GAMEF exists to confront the pressing challenges faced by men and boys today. These include depression, anxiety, gender-based violence, suicide, and alcohol or substance abuse. But beyond that, we serve as a bridge to the next generation — creating pathways to healing, personal growth, and meaningful support through access to vital resources and community-driven programs.
       </motion.p>
 
-      {/* 9-Image Scrollable Strip */}
-      <div className="w-full overflow-x-auto flex justify-start sm:justify-center items-end mt-10 px-2 sm:px-0">
+      {/* Image Section */}
+      {/* Desktop & Tablet View */}
+      <div className="hidden sm:flex w-full overflow-x-auto justify-start sm:justify-center items-end mt-10 px-2 sm:px-0">
         <div className="flex flex-nowrap gap-4">
           {[
             "worker.jpg", "school.jpg", "babyboy.jpg", "groups2.jpg", "speaking.jpg",
@@ -60,6 +61,35 @@ function Aboutme() {
               />
             );
           })}
+        </div>
+      </div>
+
+      {/* Mobile View */}
+      <div className="flex sm:hidden w-full px-4 mt-10">
+        <div className="grid grid-cols-3 gap-3 place-items-center w-full">
+          {[
+            { src: "worker.jpg", size: "w-16 h-16" },
+            { src: "school.jpg", size: "w-20 h-20" },
+            { src: "babyboy.jpg", size: "w-28 h-28" }, // Main focal image
+            { src: "groups2.jpg", size: "w-16 h-16" },
+            { src: "speaking.jpg", size: "w-20 h-20" },
+            { src: "speaking3.jpg", size: "w-16 h-16" },
+            { src: "media.jpg", size: "w-20 h-20" },
+            { src: "groups.jpg", size: "w-16 h-16" },
+            { src: "health.jpg", size: "w-16 h-16" },
+          ].map(({ src, size }, index) => (
+            <motion.img
+              key={src}
+              src={src}
+              alt={`image-${index + 1}`}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              whileHover={{ scale: 1.05 }}
+              className={`rounded-3xl object-cover shadow-md transition-transform duration-300 ${size}`}
+            />
+          ))}
         </div>
       </div>
 

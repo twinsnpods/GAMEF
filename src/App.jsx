@@ -10,6 +10,8 @@ import RecentEvents from './Components/RecentEvents.jsx'
 import Upcoming from './Components/Upcomig.jsx'
 import Voice from './Components/Voice.jsx'
 import Community from './Components/Community.jsx'
+import Questions from './Components/Questions.jsx'
+import Footer from './Components/Footer.jsx'
 function App() {
   
 
@@ -25,7 +27,8 @@ function App() {
         <Upcoming />
         <Voice />
         <Community />
-
+        <Questions />
+        <Footer />
       </div>
     </>
   )
