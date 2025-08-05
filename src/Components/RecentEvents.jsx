@@ -25,7 +25,7 @@ function RecentEvents() {
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 w-full">
         <div className="relative ml-8 mb-8">
   <motion.img
-    src="speaking2.jpeg"
+    src="speaking2.webp"
     alt="pe"
     initial={{ scale: 0.8, opacity: 0 }}
     whileInView={{ scale: 1, opacity: 1 }}
@@ -34,7 +34,7 @@ function RecentEvents() {
                h-48 w-48 sm:h-64 sm:w-64 md:h-120 md:w-120 border-2 border-white"
   />
   <img
-    src="speaking.jpg"  // Replace with your small image file name
+    src="speaking.webp"  // Replace with your small image file name
     alt="corner"
     className="absolute bottom-2 right-2 w-12 h-12 sm:w-32 sm:h-32 border-2 border-white rounded-full object-cover shadow-md"
   />

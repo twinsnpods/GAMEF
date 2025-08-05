@@ -26,7 +26,7 @@ function Upcoming() {
       {/* Wrap image in a full-width div to override max-width container */}
       <div className="w-full px-0 md:px-0">
         <motion.img
-          src="Loading.jpg"
+          src="Loading.webp"
           alt="robotics"
           initial={{ scale: 0.8, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}

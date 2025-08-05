@@ -8,7 +8,7 @@ function Goal() {
       {/* Section 1: Vision */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 w-full max-w-7xl gap-x-10">
         <motion.img
-          src="groups2.jpg"
+          src="groups2.webp"
           alt="vision"
           initial={{ scale: 0.8, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
@@ -47,7 +47,7 @@ function Goal() {
         </motion.div>
 
         <motion.img
-          src="bricks.jpg"
+          src="bricks.webp"
           alt="goal"
           initial={{ scale: 0.8, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
@@ -57,7 +57,7 @@ function Goal() {
       </div>
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 w-full max-w-7xl gap-x-20">
         <motion.img
-          src="africa.jpg"
+          src="africa.webp"
           alt="vision"
           initial={{ scale: 0.8, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}

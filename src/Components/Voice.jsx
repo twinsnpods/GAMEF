@@ -19,7 +19,7 @@ function Voice() {
       {/* Full-Width Film Style Image */}
       <div className="relative w-full max-w-7xl overflow-hidden rounded-2xl shadow-2xl aspect-[16/9]">
         <motion.img
-          src="SouthAfrica.jpg"
+          src="SouthAfrica.webp"
           alt="media"
           initial={{ scale: 0.95, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}

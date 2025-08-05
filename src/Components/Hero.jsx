@@ -28,7 +28,7 @@ function Hero() {
       <div className="relative w-full max-w-[22rem] sm:max-w-[28rem] md:max-w-[32rem] h-[24rem] sm:h-[28rem] md:h-[32rem] flex items-center justify-center">
         {/* Main Image */}
         <motion.img
-          src="babyboy.jpg"
+          src="babyboy.webp"
           alt="Main"
           initial={{ scale: 0.8, opacity: 0 }}
           whileInView={{ scale: 1, opacity: 1 }}
@@ -40,7 +40,7 @@ function Hero() {
         {/* Small Images - Absolute Positioned */}
         {/* Top-left */}
         <motion.img
-          src="worker.jpg"
+          src="worker.webp"
           alt="Young Man"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -52,7 +52,7 @@ function Hero() {
 
         {/* Mid-left */}
         <motion.img
-          src="school.jpg"
+          src="school.webp"
           alt="School"
           initial={{ opacity: 0, x: -30, y: 20 }}
           whileInView={{ opacity: 1, x: 0, y: 0 }}
@@ -64,7 +64,7 @@ function Hero() {
 
         {/* Bottom-left */}
         <motion.img
-          src="groups.jpg"
+          src="groups.webp"
           alt="Groups"
           initial={{ opacity: 0, x: -20, y: 40 }}
           whileInView={{ opacity: 1, x: 0, y: 0 }}
@@ -76,7 +76,7 @@ function Hero() {
 
         {/* Bottom-center */}
         <motion.img
-          src="mental.jpg"
+          src="mental.webp"
           alt="Mental Health"
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}

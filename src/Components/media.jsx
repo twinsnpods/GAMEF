@@ -17,7 +17,7 @@ function Media() {
       <div className='flex flex-row flex-wrap justify-center items-center gap-6'>
         <div className="relative group">
           <motion.img
-            src="speaking.jpg"
+            src="speaking.webp"
             alt="media"
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
@@ -32,7 +32,7 @@ function Media() {
         </div>
         <div className="relative group">
           <motion.img
-            src="media.jpg"
+            src="media.webp"
             alt="robotics"
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
@@ -48,7 +48,7 @@ function Media() {
         <div className='flex flex-col items-center justify-center gap-8'>
             <div className="relative group">
           <motion.img
-            src="babyboy.jpg"
+            src="babyboy.webp"
             alt="robotics"
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
@@ -63,7 +63,7 @@ function Media() {
         </div>
         <div className="relative group">
           <motion.img
-            src="school.jpg"
+            src="school.webp"
             alt="robotics"
             initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}

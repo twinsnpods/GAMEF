@@ -32,8 +32,8 @@ function Aboutme() {
       <div className="hidden sm:flex w-full overflow-x-auto justify-start sm:justify-center items-end mt-10 px-2 sm:px-0">
         <div className="flex flex-nowrap gap-4">
           {[
-            "worker.jpg", "school.jpg", "babyboy.jpg", "groups2.jpg", "speaking.jpg",
-            "speaking3.jpg", "media.jpg", "groups.jpg", "health.jpg",
+            "worker.webp", "school.webp", "babyboy.webp", "groups2.webp", "speaking.webp",
+            "speaking3.webp", "media.webp", "groups.webp", "health.webp",
           ].map((src, index) => {
             const sizeClasses = [
               "w-12 h-12 sm:w-16 sm:h-16",
@@ -68,15 +68,15 @@ function Aboutme() {
       <div className="flex sm:hidden w-full px-4 mt-10">
         <div className="grid grid-cols-3 gap-3 place-items-center w-full">
           {[
-            { src: "worker.jpg", size: "w-16 h-16" },
-            { src: "school.jpg", size: "w-20 h-20" },
-            { src: "babyboy.jpg", size: "w-28 h-28" }, // Main focal image
-            { src: "groups2.jpg", size: "w-16 h-16" },
-            { src: "speaking.jpg", size: "w-20 h-20" },
-            { src: "speaking3.jpg", size: "w-16 h-16" },
-            { src: "media.jpg", size: "w-20 h-20" },
-            { src: "groups.jpg", size: "w-16 h-16" },
-            { src: "health.jpg", size: "w-16 h-16" },
+            { src: "worker.webp", size: "w-16 h-16" },
+            { src: "school.webp", size: "w-20 h-20" },
+            { src: "babyboy.webp", size: "w-28 h-28" }, // Main focal image
+            { src: "groups2.webp", size: "w-16 h-16" },
+            { src: "speaking.webp", size: "w-20 h-20" },
+            { src: "speaking3.webp", size: "w-16 h-16" },
+            { src: "media.webp", size: "w-20 h-20" },
+            { src: "groups.webp", size: "w-16 h-16" },
+            { src: "health.webp", size: "w-16 h-16" },
           ].map(({ src, size }, index) => (
             <motion.img
               key={src}
