@@ -31,7 +31,7 @@ function Footer() {
                         transition={{ duration: 2 }}
                         className="text-base sm:text-lg md:text-2xl pb-2 text-center md:text-left text-white"
                     >
-                        Phone: 076 – 946 – 9668
+                        Phone: 012 980 5075
                     </motion.p>
                     <motion.p
                         initial={{ opacity: 0 }}
