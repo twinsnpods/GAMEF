@@ -4,7 +4,7 @@ import { FaYoutube, FaTiktok, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 function Media() {
   return (
-    <div className="bg-black flex flex-col justify-center items-center px-6 sm:px-8 md:px-12 gap-8 md:gap-16 py-10 pt-20 text-white pb-30">
+    <div id="blog" className="bg-black flex flex-col justify-center items-center px-6 sm:px-8 md:px-12 gap-8 md:gap-16 py-10 pt-20 text-white pb-30">
       <motion.h1
         initial={{ y: +100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <div className="bg-white flex flex-col md:flex-row md:gap-x-20 ustify-center items-center px-6 sm:px-8 lg:px-12 gap-10 md:gap-16 py-10
+    <div id="home" className="bg-white flex flex-col md:flex-row md:gap-x-20 ustify-center items-center px-6 sm:px-8 lg:px-12 gap-10 md:gap-16 py-10
      pt-20">
       {/* Text Content */}
       <motion.div

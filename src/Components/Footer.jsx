@@ -4,7 +4,7 @@ import { FaEnvelope, FaTiktok, FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 function Footer() {
     return (
-        <div className="bg-blue-600">
+        <div id="more" className="bg-blue-600">
             <div className="flex flex-col md:flex-row w-full">
                 
                 {/* Address Section */}

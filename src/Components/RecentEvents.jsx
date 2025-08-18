@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function RecentEvents() {
   return (
-    <div className="bg-blue-400 text-black flex flex-col justify-center items-center gap-20 px-6 md:px-20 py-10 overflow-x-hidden pt-20">
+    <div id="" className="bg-blue-400 text-black flex flex-col justify-center items-center gap-20 px-6 md:px-20 py-10 overflow-x-hidden pt-20">
       <motion.h1
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}

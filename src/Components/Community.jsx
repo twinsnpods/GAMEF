@@ -9,7 +9,7 @@ import {
 
 function Community() {
   return (
-    <div className="bg-blue-400 flex flex-col justify-center items-center px-6 sm:px-10 md:px-16 gap-12 py-20 text-black">
+    <div id="Services" className="bg-blue-400 flex flex-col justify-center items-center px-6 sm:px-10 md:px-16 gap-12 py-20 text-black">
       <motion.h1
         initial={{ y: +100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
@@ -30,7 +30,6 @@ function Community() {
       </motion.p>
 
       <section
-        id="home"
         className="bg-blue-400 text-black flex flex-col items-center justify-center py-16 px-4"
       >
         <div className="flex flex-col md:flex-row gap-12 items-stretch justify-center w-full max-w-6xl">
